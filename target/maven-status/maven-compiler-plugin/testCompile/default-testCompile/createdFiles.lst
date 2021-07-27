@@ -1,0 +1,9 @@
+com\iNetBanking\testCases\TC_LoginPageDDT_002.class
+com\iNetBanking\testCases\BaseClass.class
+com\iNetBanking\utilities\ReadConfig.class
+com\iNetBanking\testCases\TC_AddCustomerDetails_002.class
+com\iNetBanking\utilities\XUtils.class
+com\iNetBanking\pageObjects\AddCustomerPage.class
+com\iNetBanking\pageObjects\LoginPage.class
+com\iNetBanking\testCases\TC_LoginPage_001.class
+com\iNetBanking\utilities\Reporting.class

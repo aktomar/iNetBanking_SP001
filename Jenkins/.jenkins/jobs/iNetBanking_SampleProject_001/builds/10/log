@@ -1,0 +1,11 @@
+Started by user [8mha:////4LYXJ6lwN98s0E6oatln1rZKIf77Nr36zi/t5pDrlxaFAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9xJTczDwA4LbuW8AAAAA=[0mAkshay Tomar
+Running as SYSTEM
+Building in workspace C:\windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\iNetBanking_SampleProject_001
+[iNetBanking_SampleProject_001] $ cmd /c call C:\windows\TEMP\jenkins8042265027354715167.bat
+
+C:\windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\iNetBanking_SampleProject_001>cd D:\Automation\iNetBanking\run.bat 
+The directory name is invalid.
+
+C:\windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\iNetBanking_SampleProject_001>exit 1 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE
