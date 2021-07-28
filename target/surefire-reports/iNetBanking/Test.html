@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 27 10:41:42 IST 2021</td>
+<td>Started on:</td><td>Tue Jul 27 13:01:07 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>629 seconds (629082 ms)</td>
+<tr><td>Total time:</td><td>89 seconds (89037 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,266 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.iNetBanking.testCases.TC_LoginPageDDT_002.SetUp()'><b>SetUp</b><br>Test class: com.iNetBanking.testCases.TC_LoginPageDDT_002<br>Parameters: chrome</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: session not created
-from timeout: Timed out receiving message from renderer: 600.000
-  (Session info: chrome=92.0.4515.107)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-J01TQCUN&apos;, ip: &apos;192.168.2.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00FF5843+2512963]
-	Ordinal0 [0x00F8EED1+2092753]
-	Ordinal0 [0x00E91F48+1056584]
-	Ordinal0 [0x00E8493D+1001789]
-	Ordinal0 [0x00E8398D+997773]
-	Ordinal0 [0x00E83C46+998470]
-	Ordinal0 [0x00E83535+996661]
-	Ordinal0 [0x00E8A09D+1024157]
-	Ordinal0 [0x00E834F1+996593]
-	Ordinal0 [0x00E84416+1000470]
-	Ordinal0 [0x00E8398D+997773]
-	Ordinal0 [0x00E83C46+998470]
-	Ordinal0 [0x00E83535+996661]
-	Ordinal0 [0x00E892CC+1020620]
-	Ordinal0 [0x00E834F1+996593]
-	Ordinal0 [0x00E84416+1000470]
-	Ordinal0 [0x00E8398D+997773]
-	Ordinal0 [0x00E83C46+998470]
-	Ordinal0 [0x00E83535+996661]
-	Ordinal0 [0x00E7F10D+979213]
-	Ordinal0 [0x00E834F1+996593]
-	Ordinal0 [0x00E83290+995984]
-	Ordinal0 [0x00E83029+995369]
-	Ordinal0 [0x00E93160+1061216]
-	Ordinal0 [0x00EDA8EB+1353963]
-	Ordinal0 [0x00ED95BA+1349050]
-	Ordinal0 [0x00ED54BB+1332411]
-	Ordinal0 [0x00EB1D14+1187092]
-	Ordinal0 [0x00EB2B79+1190777]
-	GetHandleVerifier [0x01170C56+1501718]
-	GetHandleVerifier [0x0121E97F+2213695]
-	GetHandleVerifier [0x01078C92+485970]
-	GetHandleVerifier [0x01077D59+482073]
-	Ordinal0 [0x00F9471D+2115357]
-	Ordinal0 [0x00F98678+2131576]
-	Ordinal0 [0x00F987B2+2131890]
-	Ordinal0 [0x00FA1971+2169201]
-	BaseThreadInitThunk [0x76BCFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77AC7A7E+286]
-	RtlGetAppContainerNamedObjectPath [0x77AC7A4E+238]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.iNetBanking.testCases.BaseClass.SetUp(BaseClass.java:47)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace564272228", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace564272228'><pre>org.openqa.selenium.SessionNotCreatedException: session not created
-from timeout: Timed out receiving message from renderer: 600.000
-  (Session info: chrome=92.0.4515.107)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-J01TQCUN&apos;, ip: &apos;192.168.2.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00FF5843+2512963]
-	Ordinal0 [0x00F8EED1+2092753]
-	Ordinal0 [0x00E91F48+1056584]
-	Ordinal0 [0x00E8493D+1001789]
-	Ordinal0 [0x00E8398D+997773]
-	Ordinal0 [0x00E83C46+998470]
-	Ordinal0 [0x00E83535+996661]
-	Ordinal0 [0x00E8A09D+1024157]
-	Ordinal0 [0x00E834F1+996593]
-	Ordinal0 [0x00E84416+1000470]
-	Ordinal0 [0x00E8398D+997773]
-	Ordinal0 [0x00E83C46+998470]
-	Ordinal0 [0x00E83535+996661]
-	Ordinal0 [0x00E892CC+1020620]
-	Ordinal0 [0x00E834F1+996593]
-	Ordinal0 [0x00E84416+1000470]
-	Ordinal0 [0x00E8398D+997773]
-	Ordinal0 [0x00E83C46+998470]
-	Ordinal0 [0x00E83535+996661]
-	Ordinal0 [0x00E7F10D+979213]
-	Ordinal0 [0x00E834F1+996593]
-	Ordinal0 [0x00E83290+995984]
-	Ordinal0 [0x00E83029+995369]
-	Ordinal0 [0x00E93160+1061216]
-	Ordinal0 [0x00EDA8EB+1353963]
-	Ordinal0 [0x00ED95BA+1349050]
-	Ordinal0 [0x00ED54BB+1332411]
-	Ordinal0 [0x00EB1D14+1187092]
-	Ordinal0 [0x00EB2B79+1190777]
-	GetHandleVerifier [0x01170C56+1501718]
-	GetHandleVerifier [0x0121E97F+2213695]
-	GetHandleVerifier [0x01078C92+485970]
-	GetHandleVerifier [0x01077D59+482073]
-	Ordinal0 [0x00F9471D+2115357]
-	Ordinal0 [0x00F98678+2131576]
-	Ordinal0 [0x00F987B2+2131890]
-	Ordinal0 [0x00FA1971+2169201]
-	BaseThreadInitThunk [0x76BCFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x77AC7A7E+286]
-	RtlGetAppContainerNamedObjectPath [0x77AC7A4E+238]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.iNetBanking.testCases.BaseClass.SetUp(BaseClass.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-</pre></div></td>
-<td>601</td>
-<td>com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.iNetBanking.testCases.TC_LoginPageDDT_002.tearDown()'><b>tearDown</b><br>Test class: com.iNetBanking.testCases.TC_LoginPageDDT_002</td>
-<td></td>
-<td>0</td>
-<td>com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.iNetBanking.testCases.TC_AddCustomerDetails_002.AddCutomerDetails()'><b>AddCutomerDetails</b><br>Test class: com.iNetBanking.testCases.TC_AddCustomerDetails_002</td>
-<td><div><pre>java.lang.NoClassDefFoundError: com/iNetBanking/pageObjects/AddCustomerPage
-	at com.iNetBanking.testCases.TC_AddCustomerDetails_002.AddCutomerDetails(TC_AddCustomerDetails_002.java:27)
-Caused by: java.lang.ClassNotFoundException: com.iNetBanking.pageObjects.AddCustomerPage
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	... 29 more
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1878413714", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1878413714'><pre>java.lang.NoClassDefFoundError: com/iNetBanking/pageObjects/AddCustomerPage
-	at com.iNetBanking.testCases.TC_AddCustomerDetails_002.AddCutomerDetails(TC_AddCustomerDetails_002.java:27)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: java.lang.ClassNotFoundException: com.iNetBanking.pageObjects.AddCustomerPage
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	... 29 more
-</pre></div></td>
-<td>11</td>
-<td>com.iNetBanking.testCases.TC_AddCustomerDetails_002@3498ed</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -335,77 +75,45 @@ Caused by: java.lang.ClassNotFoundException: com.iNetBanking.pageObjects.AddCust
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.iNetBanking.testCases.TC_AddCustomerDetails_002.AddCutomerDetails()'><b>AddCutomerDetails</b><br>Test class: com.iNetBanking.testCases.TC_AddCustomerDetails_002</td>
+<td></td>
+<td>6</td>
+<td>com.iNetBanking.testCases.TC_AddCustomerDetails_002@3498ed</td></tr>
+<tr>
+<td title='com.iNetBanking.testCases.TC_LoginPageDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.iNetBanking.testCases.TC_LoginPageDDT_002<br>Parameters: mngr341461, tUsAvYt</td>
+<td></td>
+<td>6</td>
+<td>com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0</td></tr>
+<tr>
+<td title='com.iNetBanking.testCases.TC_LoginPageDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.iNetBanking.testCases.TC_LoginPageDDT_002<br>Parameters: mngr341467, tUsAvYt</td>
+<td></td>
+<td>13</td>
+<td>com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0</td></tr>
+<tr>
+<td title='com.iNetBanking.testCases.TC_LoginPageDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.iNetBanking.testCases.TC_LoginPageDDT_002<br>Parameters: mngr341463, tUsAvYt</td>
+<td></td>
+<td>5</td>
+<td>com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0</td></tr>
+<tr>
+<td title='com.iNetBanking.testCases.TC_LoginPageDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.iNetBanking.testCases.TC_LoginPageDDT_002<br>Parameters: mngr341467, tUsAvYt</td>
+<td></td>
+<td>12</td>
+<td>com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0</td></tr>
+<tr>
+<td title='com.iNetBanking.testCases.TC_LoginPageDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.iNetBanking.testCases.TC_LoginPageDDT_002<br>Parameters: mngr341464, tUsAvYt</td>
+<td></td>
+<td>9</td>
+<td>com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0</td></tr>
+<tr>
+<td title='com.iNetBanking.testCases.TC_LoginPageDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.iNetBanking.testCases.TC_LoginPageDDT_002<br>Parameters: mngr341467, tUsAvYt</td>
+<td></td>
+<td>12</td>
+<td>com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0</td></tr>
+<tr>
 <td title='com.iNetBanking.testCases.TC_LoginPage_001.LoginTest()'><b>LoginTest</b><br>Test class: com.iNetBanking.testCases.TC_LoginPage_001</td>
 <td></td>
 <td>1</td>
 <td>com.iNetBanking.testCases.TC_LoginPage_001@13969fbe</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.iNetBanking.testCases.TC_LoginPageDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.iNetBanking.testCases.TC_LoginPageDDT_002</td>
-<td><div><pre>java.lang.RuntimeException: java.lang.NoClassDefFoundError: com/iNetBanking/utilities/XUtils
-Caused by: java.lang.NoClassDefFoundError: com/iNetBanking/utilities/XUtils
-	at com.iNetBanking.testCases.TC_LoginPageDDT_002.getData(TC_LoginPageDDT_002.java:73)
-	... 25 more
-Caused by: java.lang.ClassNotFoundException: com.iNetBanking.utilities.XUtils
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	... 33 more
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1511574902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1511574902'><pre>java.lang.RuntimeException: java.lang.NoClassDefFoundError: com/iNetBanking/utilities/XUtils
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: java.lang.NoClassDefFoundError: com/iNetBanking/utilities/XUtils
-	at com.iNetBanking.testCases.TC_LoginPageDDT_002.getData(TC_LoginPageDDT_002.java:73)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	... 25 more
-Caused by: java.lang.ClassNotFoundException: com.iNetBanking.utilities.XUtils
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	... 33 more
-</pre></div></td>
-<td>0</td>
-<td>com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0</td></tr>
 </table><p>
 </body>
 </html>
