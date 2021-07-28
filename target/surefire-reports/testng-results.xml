@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="iNetBanking" duration-ms="89037" started-at="2021-07-27T07:31:07Z" finished-at="2021-07-27T07:32:36Z">
+  <suite name="iNetBanking" duration-ms="95119" started-at="2021-07-28T08:41:02Z" finished-at="2021-07-28T08:42:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="89037" started-at="2021-07-27T07:31:07Z" finished-at="2021-07-27T07:32:36Z">
+    <test name="Test" duration-ms="95119" started-at="2021-07-28T08:41:02Z" finished-at="2021-07-28T08:42:37Z">
       <class name="com.iNetBanking.testCases.TC_LoginPage_001">
-        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPage_001@13969fbe]" name="SetUp" is-config="true" duration-ms="7217" started-at="2021-07-27T07:31:07Z" finished-at="2021-07-27T07:31:15Z">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPage_001@13969fbe]" name="SetUp" is-config="true" duration-ms="8462" started-at="2021-07-28T08:41:03Z" finished-at="2021-07-28T08:41:11Z">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.iNetBanking.testCases.TC_LoginPage_001@13969fbe]" name="LoginTest" duration-ms="1676" started-at="2021-07-27T07:31:15Z" finished-at="2021-07-27T07:31:16Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.iNetBanking.testCases.TC_LoginPage_001@13969fbe]" name="LoginTest" duration-ms="2013" started-at="2021-07-28T08:41:11Z" finished-at="2021-07-28T08:41:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_LoginPage_001@13969fbe]" name="tearDown" is-config="true" duration-ms="700" started-at="2021-07-27T07:31:16Z" finished-at="2021-07-27T07:31:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_LoginPage_001@13969fbe]" name="tearDown" is-config="true" duration-ms="719" started-at="2021-07-28T08:41:13Z" finished-at="2021-07-28T08:41:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.iNetBanking.testCases.TC_LoginPage_001 -->
       <class name="com.iNetBanking.testCases.TC_LoginPageDDT_002">
-        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="SetUp" is-config="true" duration-ms="5076" started-at="2021-07-27T07:31:17Z" finished-at="2021-07-27T07:31:22Z">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="SetUp" is-config="true" duration-ms="7039" started-at="2021-07-28T08:41:14Z" finished-at="2021-07-28T08:41:21Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="LoginDDT" duration-ms="6289" started-at="2021-07-27T07:31:23Z" data-provider="LoginData" finished-at="2021-07-27T07:31:30Z">
+        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="LoginDDT" duration-ms="8335" started-at="2021-07-28T08:41:22Z" data-provider="LoginData" finished-at="2021-07-28T08:41:31Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="LoginDDT" duration-ms="13504" started-at="2021-07-27T07:31:30Z" data-provider="LoginData" finished-at="2021-07-27T07:31:43Z">
+        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="LoginDDT" duration-ms="13237" started-at="2021-07-28T08:41:31Z" data-provider="LoginData" finished-at="2021-07-28T08:41:44Z">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="LoginDDT" duration-ms="5934" started-at="2021-07-27T07:31:43Z" data-provider="LoginData" finished-at="2021-07-27T07:31:49Z">
+        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="LoginDDT" duration-ms="6310" started-at="2021-07-28T08:41:44Z" data-provider="LoginData" finished-at="2021-07-28T08:41:50Z">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="LoginDDT" duration-ms="12009" started-at="2021-07-27T07:31:49Z" data-provider="LoginData" finished-at="2021-07-27T07:32:01Z">
+        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="LoginDDT" duration-ms="11780" started-at="2021-07-28T08:41:50Z" data-provider="LoginData" finished-at="2021-07-28T08:42:02Z">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="LoginDDT" duration-ms="9038" started-at="2021-07-27T07:32:01Z" data-provider="LoginData" finished-at="2021-07-27T07:32:10Z">
+        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="LoginDDT" duration-ms="8143" started-at="2021-07-28T08:42:02Z" data-provider="LoginData" finished-at="2021-07-28T08:42:10Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="LoginDDT" duration-ms="12532" started-at="2021-07-27T07:32:10Z" data-provider="LoginData" finished-at="2021-07-27T07:32:23Z">
+        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="LoginDDT" duration-ms="11574" started-at="2021-07-28T08:42:10Z" data-provider="LoginData" finished-at="2021-07-28T08:42:22Z">
           <params>
             <param index="0">
               <value>
@@ -135,13 +135,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="tearDown" is-config="true" duration-ms="744" started-at="2021-07-27T07:32:23Z" finished-at="2021-07-27T07:32:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@6aaa5eb0]" name="tearDown" is-config="true" duration-ms="761" started-at="2021-07-28T08:42:22Z" finished-at="2021-07-28T08:42:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.iNetBanking.testCases.TC_LoginPageDDT_002 -->
       <class name="com.iNetBanking.testCases.TC_AddCustomerDetails_002">
-        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_AddCustomerDetails_002@3498ed]" name="SetUp" is-config="true" duration-ms="4728" started-at="2021-07-27T07:32:24Z" finished-at="2021-07-27T07:32:28Z">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_AddCustomerDetails_002@3498ed]" name="SetUp" is-config="true" duration-ms="6449" started-at="2021-07-28T08:42:23Z" finished-at="2021-07-28T08:42:29Z">
           <params>
             <param index="0">
               <value>
@@ -152,11 +152,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="AddCutomerDetails()[pri:0, instance:com.iNetBanking.testCases.TC_AddCustomerDetails_002@3498ed]" name="AddCutomerDetails" duration-ms="6985" started-at="2021-07-27T07:32:28Z" finished-at="2021-07-27T07:32:35Z">
+        <test-method status="PASS" signature="AddCutomerDetails()[pri:0, instance:com.iNetBanking.testCases.TC_AddCustomerDetails_002@3498ed]" name="AddCutomerDetails" duration-ms="7459" started-at="2021-07-28T08:42:29Z" finished-at="2021-07-28T08:42:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCutomerDetails -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_AddCustomerDetails_002@3498ed]" name="tearDown" is-config="true" duration-ms="719" started-at="2021-07-27T07:32:35Z" finished-at="2021-07-27T07:32:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_AddCustomerDetails_002@3498ed]" name="tearDown" is-config="true" duration-ms="750" started-at="2021-07-28T08:42:37Z" finished-at="2021-07-28T08:42:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
