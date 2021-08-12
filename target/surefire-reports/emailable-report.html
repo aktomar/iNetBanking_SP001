@@ -9,17 +9,54 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">iNetBanking</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">95,119</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">2</td><td class="num">59,477</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">iNetBanking</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.iNetBanking.testCases.TC_AddCustomerDetails_002</td><td><a href="#m0">AddCutomerDetails</a></td><td rowspan="1">1627461749559</td><td rowspan="1">7459</td></tr><tr class="passedodd"><td rowspan="6">com.iNetBanking.testCases.TC_LoginPageDDT_002</td><td><a href="#m1">LoginDDT</a></td><td rowspan="6">1627461710847</td><td rowspan="6">11780</td></tr><tr class="passedodd"><td><a href="#m2">LoginDDT</a></td></tr><tr class="passedodd"><td><a href="#m3">LoginDDT</a></td></tr><tr class="passedodd"><td><a href="#m4">LoginDDT</a></td></tr><tr class="passedodd"><td><a href="#m5">LoginDDT</a></td></tr><tr class="passedodd"><td><a href="#m6">LoginDDT</a></td></tr><tr class="passedeven"><td rowspan="1">com.iNetBanking.testCases.TC_LoginPage_001</td><td><a href="#m7">LoginTest</a></td><td rowspan="1">1627461671501</td><td rowspan="1">2013</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">iNetBanking</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.iNetBanking.testCases.TC_AddCustomerDetails_002</td><td><a href="#m0">AddCutomerDetails</a></td><td rowspan="1">1628792387146</td><td rowspan="1">3799</td></tr><tr class="failedodd"><td rowspan="1">com.iNetBanking.testCases.TC_LoginPage_001</td><td><a href="#m1">LoginTest</a></td><td rowspan="1">1628792339866</td><td rowspan="1">1033</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.iNetBanking.testCases.TC_LoginPageDDT_002</td><td><a href="#m2">LoginDDT</a></td><td rowspan="6">1628792347988</td><td rowspan="6">5593</td></tr><tr class="passedeven"><td><a href="#m3">LoginDDT</a></td></tr><tr class="passedeven"><td><a href="#m4">LoginDDT</a></td></tr><tr class="passedeven"><td><a href="#m5">LoginDDT</a></td></tr><tr class="passedeven"><td><a href="#m6">LoginDDT</a></td></tr><tr class="passedeven"><td><a href="#m7">LoginDDT</a></td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.iNetBanking.testCases.TC_AddCustomerDetails_002#AddCutomerDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.iNetBanking.testCases.TC_LoginPageDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr341467</td><td>tUsAvYt</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.iNetBanking.testCases.TC_LoginPageDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr341463</td><td>tUsAvYt</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.iNetBanking.testCases.TC_AddCustomerDetails_002#AddCutomerDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
+  (Session info: chrome=92.0.4515.131): User is not valid
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-J01TQCUN&apos;, ip: &apos;192.168.74.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\windows\TEMP\scoped_dir5...}, goog:chromeOptions: {debuggerAddress: localhost:59117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ab91a1ecf606e8a6f076fb941d0cd65
+*** Element info: {Using=xpath, value=//*[text()=&apos;New Customer&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.iNetBanking.pageObjects.AddCustomerPage.ClickOnAddCustomer(AddCustomerPage.java:69)
+	at com.iNetBanking.testCases.TC_AddCustomerDetails_002.AddCutomerDetails(TC_AddCustomerDetails_002.java:28)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.iNetBanking.testCases.TC_LoginPage_001#LoginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
+  (Session info: chrome=92.0.4515.131): User is not valid
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-J01TQCUN&apos;, ip: &apos;192.168.74.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:56739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f8eec1bd41eda6ec18c22141a8066673
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
+	at com.iNetBanking.testCases.TC_LoginPage_001.LoginTest(TC_LoginPage_001.java:30)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.iNetBanking.testCases.TC_LoginPageDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr341461</td><td>tUsAvYt</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.iNetBanking.testCases.TC_LoginPageDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr341467</td><td>tUsAvYt</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.iNetBanking.testCases.TC_LoginPageDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr341461</td><td>tUsAvYt</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.iNetBanking.testCases.TC_LoginPageDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr341463</td><td>tUsAvYt</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">com.iNetBanking.testCases.TC_LoginPageDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr341464</td><td>tUsAvYt</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">com.iNetBanking.testCases.TC_LoginPageDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr341467</td><td>tUsAvYt</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.iNetBanking.testCases.TC_LoginPage_001#LoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.iNetBanking.testCases.TC_LoginPageDDT_002#LoginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr341467</td><td>tUsAvYt</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

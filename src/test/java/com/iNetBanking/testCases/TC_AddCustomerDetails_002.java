@@ -15,9 +15,9 @@ public class TC_AddCustomerDetails_002 extends BaseClass {
 		
 		LoginPage lp = new LoginPage(driver);
 	    lp.SetUserName(username);
-		logger.info("Username entered ...");
+		logger.info("Username Succesfully entered ...");
 		lp.SetPassword(password);
-		logger.info("password entered ...");
+		logger.info("password Succesfully entered ...");
         lp.ClickSubmit();
 		logger.info("button clicked ...");
 
