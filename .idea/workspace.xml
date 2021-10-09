@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b320b247-bce0-4c7a-8ba0-4ce8cd776463" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ProjectLogs.out" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectLogs.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/pageObjects/AddCustomerPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/pageObjects/AddCustomerPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/pageObjects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/pageObjects/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/testCases/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/testCases/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/testCases/TC_LoginPageDDT_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/testCases/TC_LoginPageDDT_002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/testCases/TC_LoginPage_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/testCases/TC_LoginPage_001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/utilities/ReadConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/utilities/ReadConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/utilities/Reporting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/utilities/Reporting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/utilities/XUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/iNetBanking/utilities/XUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/iNetBanking/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/iNetBanking/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/iNetBanking/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/iNetBanking/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/iNetBanking/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/iNetBanking/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.iNetBanking.testCases.TC_AddCustomerDetails_002.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.iNetBanking.testCases.TC_AddCustomerDetails_002.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.iNetBanking.testCases.TC_LoginPageDDT_002.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.iNetBanking.testCases.TC_LoginPageDDT_002.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.iNetBanking.testCases.TC_LoginPage_001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.iNetBanking.testCases.TC_LoginPage_001.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/iNetBanking/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/iNetBanking/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/iNetBanking/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/iNetBanking/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/iNetBanking/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/iNetBanking/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1yDbTimdRI3mBYZcQ0NFwzMvbQW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b320b247-bce0-4c7a-8ba0-4ce8cd776463" name="Changes" comment="" />
+      <created>1631789119751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631789119751</updated>
+    </task>
+    <servers />
+  </component>
+</project>

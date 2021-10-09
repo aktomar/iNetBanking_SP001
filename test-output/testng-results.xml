@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="5" failed="3" skipped="0">
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-25T08:35:44Z" name="iNetBanking" finished-at="2021-07-25T08:37:30Z" duration-ms="105715">
+  <suite started-at="2021-10-09T06:21:41Z" name="iNetBanking" finished-at="2021-10-09T06:23:10Z" duration-ms="89086">
     <groups>
     </groups>
-    <test started-at="2021-07-25T08:35:44Z" name="Test" finished-at="2021-07-25T08:37:30Z" duration-ms="105715">
+    <test started-at="2021-10-09T06:21:41Z" name="Test" finished-at="2021-10-09T06:23:10Z" duration-ms="89086">
       <class name="com.iNetBanking.testCases.TC_LoginPage_001">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPage_001@6497b078]" started-at="2021-07-25T08:35:45Z" name="SetUp" finished-at="2021-07-25T08:35:56Z" duration-ms="11190" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPage_001@6497b078]" started-at="2021-10-09T06:21:42Z" name="SetUp" finished-at="2021-10-09T06:21:47Z" duration-ms="5358" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginTest()[pri:0, instance:com.iNetBanking.testCases.TC_LoginPage_001@6497b078]" started-at="2021-07-25T08:35:56Z" name="LoginTest" finished-at="2021-07-25T08:35:59Z" duration-ms="2504" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:com.iNetBanking.testCases.TC_LoginPage_001@6497b078]" started-at="2021-10-09T06:21:47Z" name="LoginTest" finished-at="2021-10-09T06:21:49Z" duration-ms="2326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_LoginPage_001@6497b078]" started-at="2021-07-25T08:35:59Z" name="tearDown" finished-at="2021-07-25T08:35:59Z" duration-ms="431" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_LoginPage_001@6497b078]" started-at="2021-10-09T06:21:49Z" name="tearDown" finished-at="2021-10-09T06:21:50Z" duration-ms="682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.iNetBanking.testCases.TC_LoginPage_001 -->
       <class name="com.iNetBanking.testCases.TC_LoginPageDDT_002">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-07-25T08:35:59Z" name="SetUp" finished-at="2021-07-25T08:36:05Z" duration-ms="6292" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-10-09T06:21:50Z" name="SetUp" finished-at="2021-10-09T06:21:54Z" duration-ms="4421" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-07-25T08:36:07Z" name="LoginDDT" data-provider="LoginData" finished-at="2021-07-25T08:36:20Z" duration-ms="13077" status="FAIL">
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-10-09T06:21:56Z" name="LoginDDT" data-provider="LoginData" finished-at="2021-10-09T06:22:30Z" duration-ms="34336" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -52,17 +52,29 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Cannot locate an element using xpath=/html/body/div[3]/div/ul/li[10]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J01TQCUN', ip: '192.168.224.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at com.iNetBanking.testCases.TC_LoginPageDDT_002.LoginDDT(TC_LoginPageDDT_002.java:30)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=/html/body/div[3]/div/ul/li[10]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J01TQCUN', ip: '192.168.224.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at com.iNetBanking.pageObjects.LoginPage.ClickLogout(LoginPage.java:48)
+at com.iNetBanking.testCases.TC_LoginPageDDT_002.LoginDDT(TC_LoginPageDDT_002.java:38)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,11 +102,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-07-25T08:36:20Z" name="LoginDDT" data-provider="LoginData" finished-at="2021-07-25T08:36:36Z" duration-ms="16237" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-10-09T06:22:30Z" name="LoginDDT" data-provider="LoginData" finished-at="2021-10-09T06:22:30Z" duration-ms="49" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -107,10 +119,72 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : User is not valid}
+  (Session info: chrome=94.0.4606.71): User is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J01TQCUN', ip: '192.168.224.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\techa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f8241ef47a2d4ea2d18ed09736c13bb
+*** Element info: {Using=name, value=uid}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User is not valid}
+  (Session info: chrome=94.0.4606.71): User is not valid
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-J01TQCUN', ip: '192.168.224.186', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.71, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\techa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f8241ef47a2d4ea2d18ed09736c13bb
+*** Element info: {Using=name, value=uid}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+at com.iNetBanking.pageObjects.LoginPage.SetUserName(LoginPage.java:39)
+at com.iNetBanking.testCases.TC_LoginPageDDT_002.LoginDDT(TC_LoginPageDDT_002.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-07-25T08:36:36Z" name="LoginDDT" data-provider="LoginData" finished-at="2021-07-25T08:36:44Z" duration-ms="8231" status="FAIL">
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-10-09T06:22:30Z" name="LoginDDT" data-provider="LoginData" finished-at="2021-10-09T06:22:38Z" duration-ms="7182" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,49 +197,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at com.iNetBanking.testCases.TC_LoginPageDDT_002.LoginDDT(TC_LoginPageDDT_002.java:30)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-07-25T08:36:44Z" name="LoginDDT" data-provider="LoginData" finished-at="2021-07-25T08:36:59Z" duration-ms="15213" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-10-09T06:22:38Z" name="LoginDDT" data-provider="LoginData" finished-at="2021-10-09T06:22:43Z" duration-ms="5332" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,7 +216,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-07-25T08:36:59Z" name="LoginDDT" data-provider="LoginData" finished-at="2021-07-25T08:37:06Z" duration-ms="6561" status="FAIL">
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-10-09T06:22:43Z" name="LoginDDT" data-provider="LoginData" finished-at="2021-10-09T06:22:50Z" duration-ms="7004" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -194,49 +229,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at com.iNetBanking.testCases.TC_LoginPageDDT_002.LoginDDT(TC_LoginPageDDT_002.java:30)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-07-25T08:37:06Z" name="LoginDDT" data-provider="LoginData" finished-at="2021-07-25T08:37:17Z" duration-ms="10884" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-10-09T06:22:50Z" name="LoginDDT" data-provider="LoginData" finished-at="2021-10-09T06:22:55Z" duration-ms="5212" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -252,13 +248,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-07-25T08:37:17Z" name="tearDown" finished-at="2021-07-25T08:37:17Z" duration-ms="421" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_LoginPageDDT_002@41c2284a]" started-at="2021-10-09T06:22:55Z" name="tearDown" finished-at="2021-10-09T06:22:56Z" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.iNetBanking.testCases.TC_LoginPageDDT_002 -->
       <class name="com.iNetBanking.testCases.TC_AddCustomerDetails_002">
-        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_AddCustomerDetails_002@53aad5d5]" started-at="2021-07-25T08:37:17Z" name="SetUp" finished-at="2021-07-25T08:37:22Z" duration-ms="4823" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:com.iNetBanking.testCases.TC_AddCustomerDetails_002@53aad5d5]" started-at="2021-10-09T06:22:56Z" name="SetUp" finished-at="2021-10-09T06:23:02Z" duration-ms="6016" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -269,11 +265,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="AddCutomerDetails()[pri:0, instance:com.iNetBanking.testCases.TC_AddCustomerDetails_002@53aad5d5]" started-at="2021-07-25T08:37:22Z" name="AddCutomerDetails" finished-at="2021-07-25T08:37:30Z" duration-ms="7593" status="PASS">
+        <test-method signature="AddCutomerDetails()[pri:0, instance:com.iNetBanking.testCases.TC_AddCustomerDetails_002@53aad5d5]" started-at="2021-10-09T06:23:02Z" name="AddCutomerDetails" finished-at="2021-10-09T06:23:10Z" duration-ms="8156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddCutomerDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_AddCustomerDetails_002@53aad5d5]" started-at="2021-07-25T08:37:30Z" name="tearDown" finished-at="2021-07-25T08:37:30Z" duration-ms="408" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iNetBanking.testCases.TC_AddCustomerDetails_002@53aad5d5]" started-at="2021-10-09T06:23:10Z" name="tearDown" finished-at="2021-10-09T06:23:10Z" duration-ms="489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
